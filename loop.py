@@ -16,3 +16,13 @@ print(num)
 name = 'naisan novel'
 for l in name:
     print(l, end='\n')
+
+
+# break and continue
+for i in range(1, 11):
+    if i == 5: break
+    print(i)
+
+for j in range(1, 11):
+    if j == 5: continue
+    print(j)
