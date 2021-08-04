@@ -11,6 +11,10 @@ print(age)
 # 25
 
 # boolean
+x = True
+y = False
+print(x)    # true
+print(y)    # false
 
 # list = array
 li = [1, 2, 3, 4]
