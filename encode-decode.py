@@ -1,3 +1,8 @@
+from art import logo
+
+print(logo)
+
+
 def encrypt():
     encoded_message = ''
     for letter in message:
