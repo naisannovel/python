@@ -33,3 +33,14 @@ def func2():
 b = 25
 func2()     # 25
 print(b)
+
+
+def sum_num(*numbers):  # unlimited parameters
+    total = 0
+    for n in numbers:
+        total += n
+    return total
+
+
+res = sum_num(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+print(f'result is {res}')
